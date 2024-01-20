@@ -1,2 +1,7 @@
-export * from './bar'
-export * from './foo'
+import { chunk } from './array'
+
+const _ = {
+  chunk,
+}
+
+export default _
