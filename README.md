@@ -1,6 +1,6 @@
-# node-monorepo-boilerplate
+# plasticine-lodash
 
-A boilerplate for developing node.js applications or libraries with monorepo.
+A modern JavaScript utility library delivering modularity, performance & extras.
 
 ## Usage
 
