@@ -3,15 +3,14 @@ pageType: home
 
 hero:
   name: plasticine-lodash
-  text: A modern JavaScript utility library delivering modularity, performance & extras.
-  tagline: plasticine-lodash tagline
+  tagline: 一个现代化的JavaScript实用库，提供模块化、高性能和额外功能。
   actions:
     - theme: brand
-      text: Quick Start
-      link: /guide/
+      text: 快速开始
+      link: /api/array/chunk
     - theme: alt
       text: Github
-      link: https://github.com/web-infra-dev/rspress
+      link: https://github.com/Plasticine-Yang/plasticine-lodash
   image:
     src: /rspress-icon.png
     alt: plasticine-lodash Logo
