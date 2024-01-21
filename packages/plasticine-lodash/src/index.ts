@@ -1,7 +1,7 @@
-import { chunk } from './array'
+import * as array from './array'
 
 const _ = {
-  chunk,
+  ...array,
 }
 
 export default _
