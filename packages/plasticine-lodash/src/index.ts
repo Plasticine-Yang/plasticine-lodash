@@ -1,7 +1,2 @@
-import * as array from './array'
-
-const _ = {
-  ...array,
-}
-
-export default _
+export * from './array'
+export { _ as default } from './default'
