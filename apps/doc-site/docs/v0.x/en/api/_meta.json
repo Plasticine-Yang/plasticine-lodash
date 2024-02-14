@@ -4,5 +4,11 @@
     "name": "array",
     "label": "Array",
     "collapsed": false
+  },
+  {
+    "type": "dir",
+    "name": "lang",
+    "label": "Lang",
+    "collapsed": false
   }
 ]
