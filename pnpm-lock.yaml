@@ -91,15 +91,6 @@ importers:
         specifier: ^4.7.1
         version: 4.7.1
 
-  apps/playground:
-    devDependencies:
-      typescript:
-        specifier: ^5.0.2
-        version: 5.1.6
-      vite:
-        specifier: ^4.4.5
-        version: 4.4.5(@types/node@20.9.1)
-
   packages/plasticine-lodash: {}
 
 packages:
@@ -9333,12 +9324,6 @@ packages:
       is-typed-array: 1.1.10
     dev: true
 
-  /typescript@5.1.6:
-    resolution: {integrity: sha512-zaWCozRZ6DLEWAWFrVDz1H6FVXzUSfTy5FUMWsQlU8Ym5JP9eO4xkTIROFCQvhQf61z6O/G6ugw3SgAnvvm+HA==}
-    engines: {node: '>=14.17'}
-    hasBin: true
-    dev: true
-
   /typescript@5.2.2:
     resolution: {integrity: sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==}
     engines: {node: '>=14.17'}
@@ -9557,42 +9542,6 @@ packages:
       - sugarss
       - supports-color
       - terser
-    dev: true
-
-  /vite@4.4.5(@types/node@20.9.1):
-    resolution: {integrity: sha512-4m5kEtAWHYr0O1Fu7rZp64CfO1PsRGZlD3TAB32UmQlpd7qg15VF7ROqGN5CyqN7HFuwr7ICNM2+fDWRqFEKaA==}
-    engines: {node: ^14.18.0 || >=16.0.0}
-    hasBin: true
-    peerDependencies:
-      '@types/node': '>= 14'
-      less: '*'
-      lightningcss: ^1.21.0
-      sass: '*'
-      stylus: '*'
-      sugarss: '*'
-      terser: ^5.4.0
-    peerDependenciesMeta:
-      '@types/node':
-        optional: true
-      less:
-        optional: true
-      lightningcss:
-        optional: true
-      sass:
-        optional: true
-      stylus:
-        optional: true
-      sugarss:
-        optional: true
-      terser:
-        optional: true
-    dependencies:
-      '@types/node': 20.9.1
-      esbuild: 0.18.17
-      postcss: 8.4.29
-      rollup: 3.29.1
-    optionalDependencies:
-      fsevents: 2.3.3
     dev: true
 
   /vite@4.4.9(@types/node@20.9.1):
