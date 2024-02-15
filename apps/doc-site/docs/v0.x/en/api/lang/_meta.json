@@ -1,1 +1,1 @@
-["is-object", "is-symbol"]
+["is-object", "is-symbol", "to-number"]
