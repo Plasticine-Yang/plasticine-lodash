@@ -7,16 +7,16 @@
  * @returns {boolean} Returns `true` if `value` is an object, else `false`.
  * @example
  *
- * _.isObject({})
+ * isObject({})
  * // => true
  *
- * _.isObject([1, 2, 3])
+ * isObject([1, 2, 3])
  * // => true
  *
- * _.isObject(_.noop)
+ * isObject(_.noop)
  * // => true
  *
- * _.isObject(null)
+ * isObject(null)
  * // => false
  */
 export function isObject(value?: any): value is object {

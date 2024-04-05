@@ -8,10 +8,10 @@
  * @returns {Array} Returns the new array of chunks.
  * @example
  *
- * _.chunk(['a', 'b', 'c', 'd'], 2)
+ * chunk(['a', 'b', 'c', 'd'], 2)
  * // => [['a', 'b'], ['c', 'd']]
  *
- * _.chunk(['a', 'b', 'c', 'd'], 3)
+ * chunk(['a', 'b', 'c', 'd'], 3)
  * // => [['a', 'b', 'c'], ['d']]
  */
 export function chunk(array: unknown[], size: number = 1): unknown[][] {

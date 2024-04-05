@@ -11,6 +11,6 @@
 ```ts
 const array = [1, 2, 3, 4]
 
-_.slice(array, 2)
+slice(array, 2)
 // => [3, 4]
 ```

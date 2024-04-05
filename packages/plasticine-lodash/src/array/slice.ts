@@ -9,7 +9,7 @@
  *
  * const array = [1, 2, 3, 4]
  *
- * _.slice(array, 2)
+ * slice(array, 2)
  * // => [3, 4]
  */
 export function slice<T>(array: ArrayLike<T>, start: number = 0, end: number = array.length): T[] {

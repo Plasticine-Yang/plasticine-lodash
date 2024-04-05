@@ -5,7 +5,7 @@
  * @returns {Array} Return the new array of filtered values.
  * @example
  *
- * _.compact([0, 1, false, 2, '', 3]);
+ * compact([0, 1, false, 2, '', 3]);
  * // => [1, 2, 3]
  */
 export function compact(array: unknown[]): unknown[] {

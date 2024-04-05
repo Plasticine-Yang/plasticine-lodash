@@ -11,6 +11,6 @@ This method is used instead of [Array#slice](https://duckduckgo.com/?q=%21%20sit
 ```ts
 const array = [1, 2, 3, 4]
 
-_.slice(array, 2)
+slice(array, 2)
 // => [3, 4]
 ```
