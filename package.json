@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "turbo dev --filter=./packages/*",
+    "dev:docs": "pnpm -C apps/doc-site dev",
     "build": "turbo build --filter=./packages/*",
-    "play": "turbo dev --filter=./apps/playground",
     "test": "turbo test --filter=./packages/*",
     "release": "pnpm build && pnpm changeset publish",
     "commit": "cz",

@@ -3,7 +3,7 @@ import { falsyValues, toArguments } from '@/testing-utils'
 import { isObject } from '../is-object'
 
 describe('lang - isObject', () => {
-  it('should return `true` for objects', () => {
+  test('should return `true` for objects', () => {
     expect(isObject(toArguments([1, 2, 3]))).toBe(true)
     expect(isObject([1, 2, 3])).toBe(true)
     expect(isObject(Object(false))).toBe(true)
@@ -17,7 +17,7 @@ describe('lang - isObject', () => {
     expect(isObject(Object(Symbol('foo')))).toBe(true)
   })
 
-  it('should return `false` for non-objects', () => {
+  test('should return `false` for non-objects', () => {
     const values = (falsyValues as any[]).concat(true, 1, 'foo', Symbol('foo'))
     const expected = values.map(() => false)
     const actual = values.map((value) => isObject(value))
