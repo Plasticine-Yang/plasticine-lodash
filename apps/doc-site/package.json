@@ -1,6 +1,5 @@
 {
   "name": "doc-site",
-  "version": "0.0.0",
   "private": true,
   "scripts": {
     "dev": "rspress dev",
